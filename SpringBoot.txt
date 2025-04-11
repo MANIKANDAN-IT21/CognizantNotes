@@ -1,0 +1,19 @@
+What is Spring Boot?
+Spring Boot is a Java framework that makes it easier to create and run Java applications and also used to create a Micro Service.
+---->Autoconfiguration-automatically configure the class
+---->Embedded server-its have default server(Tom cat)  
+---->Staters-Automatically download the dependency
+---->Actuator-Monitor and Manage our application
+---->In build-DB(H2)
+The main goal of Spring Boot is to reduce development, unit test, and integration test time and in Spring Boot, there is no requirement for XML configuration.
+
+Auto-configuration: Correct! It automatically configures Spring Boot classes and beans based on the dependencies in your project. This eliminates the need for extensive manual configuration.
+
+Embedded server: Spot on! Spring Boot comes with an embedded server like Tomcat, Jetty, or Undertow. By default, it uses Tomcat, but you can switch to others if needed.
+
+Starters: Correct again! Spring Boot starters automatically include all necessary dependencies for specific functionalities (e.g., spring-boot-starter-web for web development).
+
+Actuator: Yes, you nailed it! Actuators are used to monitor and manage applications by exposing endpoints for health, metrics, and environment data.
+
+In-built DB (H2): Absolutely! Spring Boot provides H2, an embedded, lightweight database that you can use for development and testing purposes. It’s easy to configure and doesn't require external setup.
+
