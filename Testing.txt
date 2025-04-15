@@ -1,0 +1,63 @@
+Testing
+=======
+-TTD Testing
+-Junit
+-Mockito
+----------
+-TTD Testing
+
+What is TDD?
+------------
+Test-Driven Development (TDD) is a coding methodology that emphasizes writing tests before writing the actual code.
+This cycle is often referred to as "Red-Green-Refactor"
+Red – Create a test case and make it fail, Run the test cases
+Green – Make the test case pass by any means.
+Refactor – Change the code to remove duplicate/redundancy.Refactor code
+			(or)
+Red: Write a test for a new feature or function. Since the functionality hasn't been implemented yet, the test will initially fail (red status).
+Green: Implement the code to pass the test. Write just enough code to make the test pass (green status).
+Refactor: Improve and optimize the code while ensuring the test still passes.
+
+Benefits of TDD:
+promoting early bug detection.
+This process ensures code reliability, quality, and maintainability through its Red-Green-Refactor cycle.
+why we want TDD
+We want Test-Driven Development (TDD) because it brings a structured, disciplined approach to software development,
+TDD promotes modular, loosely-coupled code because tightly-coupled systems are harder to test.
+
+-------------------------------------
+Junit
+=====
+It allows developers to write test cases for individual functionalities in their code and run these tests to check if the actual outcomes match the expected results. When tests fail, JUnit provides detailed feedback, making it easier for developers to debug their code.
+Automation: JUnit supports automated testing,
+JUnit tests can be integrated into build tools like Maven or Gradle and CI/CD pipelines.
+Ease of Use: With simple annotations and methods, JUnit is easy to set up and use, making it accessible even for developers
+
+Annotations for Junit
+=====================
+@Test: Marks a method as a test case.
+@Before: Executes the code before each test method.
+@After: Executes the code after each test method.
+@BeforeClass and @AfterClass: Executed once before and after all tests in a class, used for setup and cleanup.
+
+Assertions for Junit(to verify that the expected results match the actual results.)
+====================
+like,
+assertEquals()
+assertTrue()
+assertNotNull()
+
+Advantages of JUnit
+==================
+-Automation
+-Simple Syntax(by using annotations like @Test, @Before, and @After)
+-Early Bug Detection
+-Supports TDD
+
+Disadvantages of JUnit
+======================
+-only for Java specific program
+-Limited to Unit Testing(Cannot test user interfaces or complex database interactions directly)
+----------------------------------------------------------------------------------------------------------------
+Mockito
+allowing you to test a unit of code without relying on external systems (e.g., databases, APIs).
